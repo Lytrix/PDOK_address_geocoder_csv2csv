@@ -1,0 +1,33 @@
+titel;adres;huisnummer;toevoeging;stad
+only an address;Grote Markt;;;Groningen
+1 word street with housenumber ;Stadhouderslaan ;41;;Den Haag
+only postal code;3011AM;;;Rotterdam
+postal code with whitespace;1057 DR;;;Amsterdam
+housenumber with - and extension;Overtoom ;74;H;Amsterdam
+1st wrongly written (should be Eerste);1e Constantijn Huygensstraat ;35;;Amsterdam
+straat abbreviation;Tweede Constantijn Huygensstr. ;2;;Amsterdam
+housenumber and letter without space and uppercase;Willemstraat ;10;A;Breda
+housenumber and letter with whitespace;Stekkenbergweg ;10; b;Amsterdam
+city with province addition;Schorrenweg ;21;;Oosterend NH
+street with () garbage;(t/o)Schorrenweg ;21;;Oosterend NH
+number first written wrong (gave errors in house number selection) and van abbreviation;1e v. Swindenstraat ;12-14;;Amsterdam
+An existing 2e first statement;2e van Blankenburgstraat; 155;;Den Haag
+A House number 4 karakters (to check it is not selected by postal code variable; Amsterdamsestraatweg ;1045;; Utrecht
+Two letter city to check for not interfering with postal code;Foeke Sjoerdstrjitte; ;9; Ee
+Letter subdivision with stripe;Westerstraat ;32;B;Zwolle
+extended informatie is discarded after subdivision;Lisdoddelaan ;4 ;1 Hoog;Arnhem
+multiple whitespaces (example from funda);Van Bossestraat ;64 ;hs;Amsterdam
+check where centerpoint is chosen with only an address;Herengracht;;;Amsterdam
+unit information;Hillegomstraat ;12-14; unit 2.02;Amsterdam
+t/o between address and number;Steenkade ;t/o 2;;Beverwijk
+roman subdivision with space;Aalbersestraat ;10 ;III;Utrecht
+roman subdivision with stripe;Aalbersestraat ;1;I;Utrecht
+BIS;Adriaen van Ostadelaan ;12; BIS;Utrecht
+BIS B;Adriaen van Ostadelaan ;65 ;Bis B;Utrecht
+Rood in Haarlem;Vroomstraat ;1 ;Rood;Haarlem
+Abbreviation;W.G. Plein ;422;;Amsterdam
+apfostoph correct encoding;Plein ’40-'45 ;1;;Amsterdam
+Years;Plein ’40-’45 ;1;;Amsterdam
+abbreviation; pr. beatrixln ;25;;uitgeest
+abbreviation; Vrolikstraat ;1343hg;;Amsterdam
+subdivision;Kerkstraat ;134;3hg;Amsterdam

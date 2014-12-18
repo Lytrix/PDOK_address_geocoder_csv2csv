@@ -1,0 +1,32 @@
+titel,adres,stad,BAG Straatnaam,BAG Huisnummer,BAG Toevoeging,BAG Postcode,X,Y,Latitude,Longitude
+only an address,Grote Markt,Groningen,Grote Markt,,,,233917.497,582007.546,53.2188560374,6.56870057069
+1 word street with housenumber ,Stadhouderslaan 41,Den Haag,Stadhouderslaan,41,,2517HV,79108.204,456238.542,52.0891965364,4.2798374576
+only postal code,3011AM,Rotterdam,Beurstraverse,,,3011AM,92658.92,437214.01,51.919910636,4.48099795927
+postal code with whitespace,1057 DR,Amsterdam,Postjeskade,,,1057DR,118565.0,486340.0,52.3637361731,4.85229226751
+housenumber with - and extension,Overtoom 74-H,Amsterdam,Overtoom,74,H,1054HL,120165.0,486254.0,52.3630670686,4.87579039809
+1st wrongly written (should be Eerste),1e Constantijn Huygensstraat 35,Amsterdam,Eerste Constantijn Huygensstraat,35,1,1054BR,120080.0,486387.0,52.3642569806,4.87452873995
+Wrongly written admiraal,Adm.de Ruyterstr 14,Oud Beijerland,Admiraal de Ruyterstraat,14,,3262XE,87709.0,426451.0,51.8226041055,4.41115432387
+y should be ij,van speykstraat 2, amsterdam,Van Speijkstraat,2,H,1057HA,119160.0,486650.0,52.3665613722,4.86099426294
+straat abbreviation,Tweede Constantijn Huygensstr. 2,Amsterdam,Tweede Constantijn Huygensstraat,2,,,119894.625,486390.909,52.3642802953,4.87180685373
+housenumber and letter without space and uppercase,Willemstraat 10A,Breda,Willemstraat,10,A,4811AK,112919.984,400675.565,51.5934041704,4.77993082963
+housenumber and letter with whitespace,Stekkenbergweg 10 b,Amsterdam,Stekkenbergweg,10,B,1105AJ,124975.0,478748.0,52.2958914407,4.94707336567
+city with province addition,Schorrenweg 21,Oosterend NH,Schorrenweg,21,A,1794HD,119299.965,568481.613,53.1019480661,4.85419101052
+street with () garbage,(t/o)Schorrenweg 21,Oosterend NH,Schorrenweg,21,A,1794HD,119299.965,568481.613,53.1019480661,4.85419101052
+number first written wrong (gave errors in house number selection) and van abbreviation,1e v. Swindenstraat 12-14,Amsterdam,Eerste Van Swindenstraat,1,,1093ES,123481.0,486137.0,52.3622158327,4.92448231448
+An existing 2e first statement,2e van Blankenburgstraat 155 2517 HD,Den Haag,2e Van Blankenburgstraat,155,,2517HD,79252.967,455613.511,52.0835994142,4.28208819145
+A House number 4 karakters (to check it is not selected by postal code variable, Amsterdamsestraatweg 1045, Utrecht,Amsterdamsestraatweg,1045,,3555HV,132958.668,459242.95,52.1209629891,5.06537104833
+Letter subdivision with stripe,Westerstraat 32-B,Zwolle,Westerstraat,32,B,8011CG,202681.103,502466.09,52.5077965788,6.08951513141
+extended informatie is discarded after subdivision,Lisdoddelaan 4 1 Hoog,Arnhem,Lisdoddelaan,4,1,6832EC,191204.043,442001.863,51.9652568383,5.91400271217
+multiple whitespaces (example from funda),Van Bossestraat 64 -hs,Amsterdam,Van Bossestraat,64,H,1051KB,119707.0,488177.0,52.380320344,4.86886479454
+check where centerpoint is chosen with only an address,Herengracht,Amsterdam,Herengracht,,,,121199.77926127872,487881.4923425181,52.3777584676,4.89081790046
+unit information,"Hillegomstraat 12-14, unit 2.02",Amsterdam,Hillegomstraat,1,2,1058LN,118348.0,485047.0,52.3521011991,4.84924744763
+t/o between address and number,Steenkade t/o 2,Beverwijk,Steenkade,2,A,1948NH,105537.0,498965.0,52.4761768963,4.65917393733
+roman subdivision with space,Aalbersestraat 6 i,Utrecht,Aalbersestraat,6,1,3515EH,136499.266,457542.823,52.1058121191,5.11716052893
+roman subdivision with space,Aalbersestraat 6II,Utrecht,Aalbersestraat,6,2,3515EH,136500.688,457542.666,52.1058107556,5.11718129341
+roman subdivision with space,Aalbersestraat 6 III,Utrecht,Aalbersestraat,6,3,3515EH,136502.11,457542.507,52.105809374,5.11720205798
+roman subdivision with stripe,Aalbersestraat 1-I,Utrecht,Aalbersestraat,1,1,3515EG,136537.561,457538.266,52.1057724397,5.11771974141
+BIS,Adriaen van Ostadelaan 12 BIS,Utrecht,Adriaen van Ostadelaan,12,B,3583AJ,138057.476,455046.844,52.083428268,5.14002865441
+BIS B,Adriaen van Ostadelaan 65 Bis B,Utrecht,Adriaen van Ostadelaan,65,BSB,3583AB,138064.137,454967.617,52.082716382,5.14012976342
+Rood in Haarlem,Vroomstraat 1 Rood,Haarlem,Vroomstraat,1,RDA,2021HL,104121.367,489647.243,52.3923101102,4.63975443239
+abbreviation, Vrolikstraat 1343hg,Amsterdam,Vrolikstraat,134,H,1092TN,123144.0,485505.0,52.3565163917,4.91959489681
+subdivision,Kerkstraat 1343hg,Amsterdam,Kerkstraat,134,2,1017GP,120992.0,486326.0,52.3637659785,4.88792394505
