@@ -29,11 +29,9 @@ import os.path
 import urllib2
 import re
 import codecs
-import socket
 from xml.dom import minidom
 from xml.dom.minidom import parseString
 from math import *
-import unicodedata
 
 matchfound = ''
 
